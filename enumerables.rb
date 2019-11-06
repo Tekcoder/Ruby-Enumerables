@@ -1,5 +1,6 @@
-# rubocop:disable Style/LineLength, Style/StringLiterals
-module Enumerable
+# frozen_string_literal: true
+
+module Enumerable # rubocop:disable Metrics/ModuleLength
   def my_each
     return to_enum unless block_given?
 
