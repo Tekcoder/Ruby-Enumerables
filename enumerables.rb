@@ -17,7 +17,7 @@ module Enumerable # rubocop:disable Metrics/ModuleLength
     end
   end
 
-  def my_select(_arr)
+  def my_select( )
     return to_enum unless block_given?
 
     temp = []
